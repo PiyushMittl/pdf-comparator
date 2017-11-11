@@ -1,0 +1,8 @@
+##create table
+CREATE TABLE FILE_INFO 
+(HASHCODE TEXT PRIMARY KEY     NOT NULL,
+ FILENAME           TEXT    NOT NULL,
+ FILELOCATION            INT     NOT NULL);
+ 
+ ##DB name 
+ "jdbc:sqlite:C:/sqlite/file_info.db"
